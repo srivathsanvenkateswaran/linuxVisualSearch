@@ -1,4 +1,4 @@
-python3 pyt.py &
+python3 cropper.py &
 wait
 tesseract cropped.png final
 printf "\n\n\n"
