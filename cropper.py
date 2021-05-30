@@ -38,7 +38,8 @@ pyautogui.screenshot().save('./test.png')
 image = cv2.imread('./test.png')
 clone = image.copy()
 cv2.namedWindow("image", cv2.WINDOW_NORMAL)
-cv2.resizeWindow('image', 1920, 1080)
+pysize = pyautogui.size()
+cv2.resizeWindow('image', pysize[0], pysize[1])
 cv2.setMouseCallback("image", click_and_crop)
 
 while True:
