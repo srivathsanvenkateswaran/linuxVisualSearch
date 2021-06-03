@@ -27,15 +27,15 @@ def click_and_crop(event, x, y, flags, param):
 
 # while True:
 # 	if keyboard.is_pressed('s'):
-#       pyautogui.screenshot().save('./test.png')
+#       pyautogui.screenshot().save('{INSERT THE FULL PATH OF TEST.PNG HERE}./test.png')
 # 		break
 # 	else:
 # 		continue
 
 sleep(1)
-pyautogui.screenshot().save('./test.png')
+pyautogui.screenshot().save('{INSERT THE FULL PATH OF TEST.PNG HERE}./test.png')
 
-image = cv2.imread('./test.png')
+image = cv2.imread('{INSERT THE FULL PATH OF TEST.PNG HERE}/test.png')
 clone = image.copy()
 cv2.namedWindow("image", cv2.WINDOW_NORMAL)
 pysize = pyautogui.size()
@@ -56,7 +56,7 @@ if len(refPt) == 2:
 	roi = clone[refPt[0][1]:refPt[1][1],refPt[0][0]:refPt[1][0]]
 	imS = cv2.resize(roi, (1920, 1080))
 	cv2.imshow("ROI", imS)
-	cv2.imwrite('./cropped.png', roi)
+	cv2.imwrite('{INSERT THE FULL PATH OF CROPPED.PNG HERE}./cropped.png', roi)
 
 cv2.destroyAllWindows()
 
