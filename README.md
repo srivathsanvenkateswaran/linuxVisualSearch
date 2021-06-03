@@ -25,6 +25,8 @@ After cloning the repo, In your terminal, type the following command to install 
 pip install -r requirements.txt
 ```
 
+And don't forget to change the file paths to their full path [Absolute Path]
+
 ## If you liked this project/ found this useful..
 
 Kindly tweet it out or share this in any other social Media platform so that more people can make use of this :)
