@@ -1,7 +1,7 @@
 import pyautogui
 import cv2
 import sys
-import os
+import os 
 from time import sleep
 from PIL import Image
 import keyboard
