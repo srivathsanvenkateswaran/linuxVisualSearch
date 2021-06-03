@@ -11,13 +11,19 @@ The text will be copied to your clipboard.
 
 In order to perform OCR with the image, you need to have tesseract OCR installed in your system.
 
-Open your terminal and type 
+Open your terminal and type the following command to install Tesseract-ocr
 
 ```
 sudo apt-get install tesseract-ocr
 ```
 
-to install tesseract-ocr. 
+Also make sure that you have python3 in your system and have the required modules installed. 
+
+After cloning the repo, In your terminal, type the following command to install the required modules
+
+```
+pip install -r requirements.txt
+```
 
 ## If you liked this project/ found this useful..
 
