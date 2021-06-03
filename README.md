@@ -13,7 +13,9 @@ In order to perform OCR with the image, you need to have tesseract OCR installed
 
 Open your terminal and type 
 
+```
 sudo apt-get install tesseract-ocr
+```
 
 to install tesseract-ocr. 
 
