@@ -15,7 +15,7 @@ Kindly tweet it out or share this in any other social Media platform so that mor
 
 ![Linux-Visual-Search](https://user-images.githubusercontent.com/74530357/120639861-73f90880-c48f-11eb-8a3d-398eba5303c3.gif)
 
-If this video isn't clear, I have added the video too below :)
+If this video isn't clear, I have added the same demo below as video too :)
 
 
 ## Demo Video
