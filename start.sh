@@ -6,3 +6,5 @@ cat final.txt
 python3 copytext.py &
 wait
 notify-send 'Copying successful' 'Text copied successfully to clipboard'
+
+# CHANGE ALL THE FILE PATHS TO THEIR FULL PATHS
