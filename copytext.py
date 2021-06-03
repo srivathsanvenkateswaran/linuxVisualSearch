@@ -1,6 +1,6 @@
 import pyperclip
 
-with open('final.txt', 'r') as f:
+with open('{INSERT THE FULL PATH OF FINAL.TXT HERE}', 'r') as f:
 	text = f.read()
 	pyperclip.copy(text)
 
