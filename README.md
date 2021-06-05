@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 And don't forget to change the file paths to their full path [Absolute Path]
 
-## If you liked this project/ found this useful..
+## If you liked this project or found this useful..
 
 Kindly tweet it out or share this in any other social Media platform so that more people can make use of this :)
 
