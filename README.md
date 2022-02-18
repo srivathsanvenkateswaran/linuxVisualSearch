@@ -30,6 +30,13 @@ And don't forget to change the file paths to their full path [Absolute Path]
 ## Tip
 You can create a file and place it in ```/usr/bin``` directory and execute it as a terminal command. </br>
 
+Here's how you can do so. </br>
+#### Creating Files for scripts
+```
+cp start.sh vSearch
+cp cropper.py cropper
+cp copytext.py copytext
+```
 
 ## If you liked this project or found this useful..
 
