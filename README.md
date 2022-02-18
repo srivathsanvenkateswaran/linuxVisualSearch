@@ -27,6 +27,10 @@ pip install -r requirements.txt
 
 And don't forget to change the file paths to their full path [Absolute Path]
 
+## Tip
+You can create a file and place it in ```/usr/bin``` directory and execute it as a terminal command. </br>
+
+
 ## If you liked this project or found this useful..
 
 Kindly tweet it out or share this in any other social Media platform so that more people can make use of this :)
