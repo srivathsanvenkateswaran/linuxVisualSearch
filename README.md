@@ -50,6 +50,19 @@ Then move the cropper file to ```/usr/bin```.
 ```
 sudo cp cropper /usr/bin
 ```
+#### Converting copytext as linux command
+Open the file copytext in nano editor
+```
+nano copytext
+```
+Now add the following line on top of the cropper file
+```
+#!/usr/bin/python3
+```
+Then move the cropper file to ```/usr/bin```.
+```
+sudo cp copytext /usr/bin
+```
 
 ## If you liked this project or found this useful..
 
