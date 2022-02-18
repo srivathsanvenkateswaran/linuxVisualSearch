@@ -63,6 +63,16 @@ Then move the cropper file to ```/usr/bin```.
 ```
 sudo cp copytext /usr/bin
 ```
+#### Changes to vSearch file
+Before we convert vSearch into a linux command, we must do some changes to the vSearch file inorder to make use of ```cropper``` and ```copytext``` linux commands which we created now instead of ```cropper.py``` and ```copytext.py``` scripts. </br>
+
+To do so, open the file vSearch in nano editor
+```
+nano vSearch
+```
+Change ```python3 cropper.py &``` to ```cropper```. </br>
+Change ```python3 copytext.py &``` to ```copytext``` </br>
+
 
 ## If you liked this project or found this useful..
 
