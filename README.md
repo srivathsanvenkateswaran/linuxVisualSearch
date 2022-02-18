@@ -73,7 +73,22 @@ nano vSearch
 Change ```python3 cropper.py &``` to ```cropper```. </br>
 Change ```python3 copytext.py &``` to ```copytext``` </br>
 
+#### Converting vSearch as linux command
+Open the file vSearch in nano editor
+```
+nano vSearch
+```
+Now add the following line on top of the cropper file
+```
+#!/usr/bin/bash
+```
+Then move the cropper file to ```/usr/bin```.
+```
+sudo cp vSearch /usr/bin
+```
+Now you can use it as a terminal command. </br></br>
 
+Feel free to ping me in case of any doubts!!
 ## If you liked this project or found this useful..
 
 Kindly tweet it out or share this in any other social Media platform so that more people can make use of this :)
