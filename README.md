@@ -1,4 +1,6 @@
 # Linux-Visual-Search
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) </br>
+
 Script to provide a functionality similar to Bing Visual Search to Linux
 
 running the start.sh will take screenshot of your current screen and will open an image window.
